@@ -5,7 +5,10 @@ export default class Clock extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {time: new Date()};
+        this.state = {
+            time: new Date(),
+            hour: new Date().getHours()
+        };
     }
 
     componentDidMount() {
@@ -25,10 +28,14 @@ export default class Clock extends Component {
         });
     }
 
+    greet() {
+        
+    }
+
     render() {
         return (
             <section className="Time">
-                <h1>Bondia!</h1>
+                <h1>{this.state.hour < 19 ? `Bondia!` : `Bonochi!` }</h1>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
             </section>
         );
