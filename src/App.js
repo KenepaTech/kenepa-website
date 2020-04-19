@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <li>Contact</li>
         </ul>
       </nav>
+      <section className="Time">
+        <Clock />
+      </section>
     </div>
   );
 }

@@ -16,6 +16,7 @@
         margin: 0;
         padding: 1.5rem;
         list-style-type: none;
+        text-align: center;
         // background-color: blue;  
         // height: 100vh;
     }
@@ -50,6 +51,15 @@
             border: solid 1px;
             border-color: orangered;
         }
+    }
+}
+
+.Time {
+    text-align: center;
+    color: white;
+
+    h2 {
+        font-size: 72px;
     }
 }
 
