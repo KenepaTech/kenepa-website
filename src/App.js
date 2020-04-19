@@ -18,9 +18,7 @@ function App() {
           <li>Contact</li>
         </ul>
       </nav>
-      <section className="Time">
         <Clock />
-      </section>
     </div>
   );
 }

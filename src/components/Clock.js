@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Clock.scss';
 
 export default class Clock extends Component {
     constructor(props) {
@@ -24,13 +25,12 @@ export default class Clock extends Component {
         });
     }
 
-
     render() {
         return (
-            <div>
+            <section className="Time">
                 <h1>Bondia!</h1>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
-            </div>
+            </section>
         );
     }
 }
