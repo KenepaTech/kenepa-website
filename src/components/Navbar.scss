@@ -1,0 +1,56 @@
+.Navbar {
+
+    padding-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    height: 5rem;
+    width: 100vw;
+
+    svg {
+        padding: 1rem;
+        position: absolute;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        margin: 0;
+        padding: 1.5rem;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li {
+        display: inline;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        margin: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        border: solid 1px;
+        border-color: black;
+
+
+        // &.Logo {
+        //     color: white;
+        //     padding: 1.5rem 1.5rem;
+        //     background-color: none;
+        //     &:hover {
+        //         color: red;
+        //     }
+        // }
+
+        &.active {
+            border: solid 1px;
+            border-color: white;
+            background-color: none;
+        }
+
+        &:hover {
+            border-color: orangered;
+        }
+    }
+}
