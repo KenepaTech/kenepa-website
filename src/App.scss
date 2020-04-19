@@ -1,3 +1,55 @@
 .App {
-
+    height: 100vh;
+    // background-color: purple;
+    background: url("./background_purple.jpg");
 }
+
+
+.Navbar {
+
+    padding-top: 0.5rem;
+    height: 5rem;
+    width: 100vw;
+    // background-color: red;
+
+    ul {
+        margin: 0;
+        padding: 1.5rem;
+        list-style-type: none;
+        // background-color: blue;  
+        // height: 100vh;
+    }
+
+    li {
+        display: inline;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        margin: 2rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+
+
+        // &.Logo {
+        //     color: white;
+        //     padding: 1.5rem 1.5rem;
+        //     background-color: none;
+        //     &:hover {
+        //         color: red;
+        //     }
+        // }
+
+        &.active {
+            border: solid 1px;
+            border-color: green;
+            background-color: none;
+        }
+
+        &:hover {
+            // background-color: orange;
+            border: solid 1px;
+            border-color: orangered;
+        }
+    }
+}
+
