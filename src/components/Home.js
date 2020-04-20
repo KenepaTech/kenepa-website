@@ -10,8 +10,8 @@ export default class Home extends Component {
             <div>
                 <Clock />
                 <section id="landing">
+                <p className="welcome">Welcome to Kenepa Tech!</p>
                     <p>
-                        <p className="welcome">Welcome to Kenepa Tech!</p>
                         We are a dedicated group of young professionals and students from the ABC-islands
                         that excel at using a multi-disciplinary approach with the latest stable technologies
                         to provide customers with innovative solutions for their businesses and/or projects.
