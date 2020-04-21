@@ -1,8 +1,11 @@
 .App {
     height: 100vh;
-    background: url("./background_purple.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    // width: 100vw;
+    // background: url("./background_purple.png");
+    background-color: purple;
+    background-image: linear-gradient(purple, blue);
+    // background-repeat: no-repeat;
+    // background-size: cover;
 }
 
 

@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+//FIXME: Footer issue
+// import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
         <Navbar />
         
-        <Footer />
+        {/* FIXME: Footer is behaving weirdly when screen size changes */}
+        {/* <Footer /> */}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Clock.scss';
 
-// Greeting block
+// BEGIN Greeting block
 
 let hour = new Date().getHours();
 
@@ -15,13 +15,14 @@ if (hour >= 19){
     greeting = `Bonochi!`;
 }
 
+// END Greeting block
+
 export default class Clock extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
             time: new Date(),
-            // hour: new Date().getHours()
         };
     }
 
