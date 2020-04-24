@@ -9,12 +9,25 @@ import './Navbar.scss';
 import Home from './Home.js';
 import About from './About.js';
 
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+
+        burger.addEventListener('click',()=>{
+            nav.classList.toggle('nav-active');
+        });
+
+    }
+
 
 export default class Navbar extends Component {
     render() {
         return ( 
-            <Router>
 
+        //    { navSlide()}
+            <Router>
+                
+                
             <div >
             
             <nav >
@@ -61,3 +74,4 @@ export default class Navbar extends Component {
 
 
 }
+
