@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 const StyledBurger = styled.button`
-    display:hidden;
     position: absolute;
     top: 3%;
     right: 2rem;
-    display: flex;
+    display:none;
     flex-direction: column;
     justify-content: space-around;
     width: 2rem;
@@ -44,8 +43,8 @@ const StyledBurger = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.tablet}) {
-        right: 12rem;
-        background-color:red;
+        display:block;
+        
             }
 
        

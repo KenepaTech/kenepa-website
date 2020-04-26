@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 
 const StyledMenu = styled.nav`
- display:none;
   transform: translateX(100%);
   display: flex;
   flex-direction: column;
