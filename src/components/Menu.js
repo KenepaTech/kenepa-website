@@ -13,7 +13,11 @@ const Menu = ({open}) => {
           <span role="img" aria-label="about">&#128220;</span>
           About
           </a>
-        <a href="#">
+          <a href="/projects">
+          <span role="img" aria-label="projects">&#128295;</span>
+          Projects
+          </a>
+        <a href="/contact">
           <span role="img" aria-label="contact">&#x1f4e9;</span>
           Contact
           </a>

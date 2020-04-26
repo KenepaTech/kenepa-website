@@ -8,7 +8,6 @@ import {
 import Home from './Home';
 import About from './About';
 import Burger from './Burger';
-import Menu from './Menu';
 import StyledNavbar from './styles/Navbar.styled';
 import  { bool, func } from 'prop-types';
 
@@ -26,14 +25,14 @@ const Navbar = ({open, setOpen}) => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Welcome</a>
+              <a href="/about">About</a>
             </li>
             <li>
               
-            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
           <div>
