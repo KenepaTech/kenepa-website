@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Textbox.scss";
+import StyledTextbox from './styles/Textbox.styled';
 
 const Textbox = ({children}) => {
     return(
-        <section id="landing">
+        <StyledTextbox>
             {children}        
-        </section>
+        </StyledTextbox>
     );
 };
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Clock.scss';
+import StyledClock from './styles/Clock.styled';
 
 // BEGIN Greeting block
 
@@ -43,14 +43,13 @@ export default class Clock extends Component {
         });
     }
 
-    
-
     render() {
         return (
-            <section className="Time">
+
+            <StyledClock>
                 <h1>{greeting}</h1>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
-            </section>
+            </StyledClock>
         );
     }
 }

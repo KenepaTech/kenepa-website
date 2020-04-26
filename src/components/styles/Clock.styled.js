@@ -1,4 +1,8 @@
-.Time {
+import styled from 'styled-components';
+
+
+const StyledClock = styled.section`
+
     text-align: center;
     color: white;
 
@@ -15,4 +19,7 @@
         color: white;
         opacity: 0.6;
     }
-}
+
+`;
+
+export default StyledClock;
