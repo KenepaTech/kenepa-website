@@ -19,7 +19,7 @@ export default class Home extends Component {
                         Enjoy your stay, and feel free to contact us
                         with any questions about our services.
                     </p> */}
-                    <img src="https://i.gyazo.com/2e9f4f175dae62e3bbdbff114ac7b817.png"/>
+                    <img src="https://i.gyazo.com/2e9f4f175dae62e3bbdbff114ac7b817.png" alt="husky"/>
                 
                 </Textbox>
             </StyledHome>
