@@ -1,5 +1,21 @@
 import React, { Component } from 'react';
-import './Clock.scss';
+import StyledClock from './styles/Clock.styled';
+
+// BEGIN Greeting block
+
+let hour = new Date().getHours();
+
+let greeting = `Bondia!`;
+
+if (hour > 15 && hour < 19) {
+    greeting = `Bontardi!`;
+}
+
+if (hour >= 19){
+    greeting = `Bonochi!`;
+}
+
+// END Greeting block
 
 export default class Clock extends Component {
     constructor(props) {
@@ -7,7 +23,6 @@ export default class Clock extends Component {
 
         this.state = {
             time: new Date(),
-            hour: new Date().getHours()
         };
     }
 
@@ -28,16 +43,14 @@ export default class Clock extends Component {
         });
     }
 
-    greet() {
-        
-    }
+    
 
     render() {
         return (
-            <section className="Time">
-                <h1>{this.state.hour < 19 ? `Bondia!` : `Bonochi!` }</h1>
+            <StyledClock>
+                <h1>{greeting}</h1>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
-            </section>
+            </StyledClock>
         );
     }
 }
