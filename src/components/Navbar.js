@@ -38,7 +38,7 @@ const Navbar = ({open, setOpen}) => {
           </ul>
           <div>
           <Burger  open={open} setOpen={setOpen} />
-          <Menu  open={open} />
+          {/* <Menu  open={open} /> */}
           
         </div>
         </StyledNavbar>

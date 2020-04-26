@@ -44,13 +44,9 @@ const StyledBurger = styled.button`
 
     @media (max-width: ${({ theme }) => theme.tablet}) {
         display:block;
-        
-            }
+        }
 
-       
      
-       }
-    }
 
   
 `;

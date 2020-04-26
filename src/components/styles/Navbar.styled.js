@@ -43,6 +43,13 @@ const StyledNavbar = styled.nav`
         background-color:rgb(226, 226, 226);
         margin: 3px;
     }
+
+    @media (max-width: ${({ theme }) => theme.tablet}) {
+            .nav-links li {
+                display: none;
+            }
+    
+        }
 `
 
 export default StyledNavbar;
