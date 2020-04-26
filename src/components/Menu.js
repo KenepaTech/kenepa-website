@@ -6,11 +6,11 @@ const Menu = ({open}) => {
     return (
       <StyledMenu open={open}>
         <a href="/">
-          <span role="img" aria-label="home">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
+          <span role="img" aria-label="home">&#127968;</span>
           Home
         </a>
         <a href="/about">
-          <span role="img" aria-label="about">&#x1f4b8;</span>
+          <span role="img" aria-label="about">&#128220;</span>
           About
           </a>
         <a href="#">

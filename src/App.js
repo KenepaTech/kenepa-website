@@ -45,6 +45,7 @@ function App() {
               styles={modalStyles}
               animationDuration={1000}
               focusTrapped={true}
+              showCloseIcon={false}
               >
 
                 <Menu />
