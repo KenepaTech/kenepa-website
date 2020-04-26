@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import Theme from './Theme';
 import "react-responsive-modal/styles.css";
 import { Modal } from 'react-responsive-modal';
+import Menu from './components/Menu';
 
 const modalStyles = {
   modal: {
@@ -45,7 +46,9 @@ function App() {
               animationDuration={1000}
               focusTrapped={true}
               >
-                <h2>HEEEEEEEY KAIBA BOI</h2>
+
+                <Menu />
+
             </Modal>
 
           <Footer />
