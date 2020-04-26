@@ -7,7 +7,6 @@ const StyledTextbox = styled.section`
     margin-right: 30vw;
     border-radius: 5px;
     opacity: 0.6;
-
     p {
         color: white;
         padding-top: 5vh;
