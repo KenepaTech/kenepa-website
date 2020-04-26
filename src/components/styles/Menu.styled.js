@@ -2,19 +2,21 @@ import styled from 'styled-components';
 
 
 const StyledMenu = styled.nav`
-transform: translateX(-100%);
+ display:none;
+  transform: translateX(100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: ${({ theme }) => theme.primaryLight};
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   height: 100vh;
   text-align: left;
   padding: 2rem;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   transition: transform 0.3s ease-in-out;
+  
   @media (max-width: ${({ theme }) => theme.mobile}) {
       width: 100%;
     }

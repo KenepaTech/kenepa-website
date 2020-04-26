@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const StyledBurger = styled.button`
+    display:hidden;
     position: absolute;
-    top: 5%;
-    left: 2rem;
+    top: 3%;
+    right: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,6 +42,26 @@ const StyledBurger = styled.button`
         transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
     }
+
+    @media (max-width: ${({ theme }) => theme.tablet}) {
+        right: 12rem;
+        background-color:red;
+            }
+
+       
+     
+       }
+    }
+
+  
 `;
+
+
+// // rezising burger
+// @media screen and (max-width:1024px){
+//     .nav-links {
+//         width: 50%;
+//     }
+//  }
 
 export default StyledBurger;
