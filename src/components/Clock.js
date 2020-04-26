@@ -43,10 +43,9 @@ export default class Clock extends Component {
         });
     }
 
-    
-
     render() {
         return (
+
             <StyledClock>
                 <h1>{greeting}</h1>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
