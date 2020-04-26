@@ -11,7 +11,7 @@ export default class Home extends Component {
             <div>
                 <Clock />
                 <Textbox>
-                    {/* <p className="welcome">Welcome to Kenepa Tech!</p> */}
+                    <p className="welcome">Welcome to Kenepa Tech!</p>
                     {/* <p>
                         We are a dedicated group of young professionals and students from the ABC-islands
                         that excel at using a multi-disciplinary approach with the latest stable technologies
