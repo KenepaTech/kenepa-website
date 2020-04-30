@@ -10,13 +10,13 @@ import About from './About';
 import Burger from './Burger';
 import StyledNavbar from './styles/Navbar.styled';
 import  { bool, func } from 'prop-types';
-import classnames from "classname"
-
+import Headroom from "react-headroom"
 
 const Navbar = ({open, setOpen}) => {
   return (
     <Router>
       <div>
+        <Headroom>
         <StyledNavbar>
           <div className="logo">
             <h4>The nav</h4>
@@ -42,7 +42,7 @@ const Navbar = ({open, setOpen}) => {
           
         </div>
         </StyledNavbar>
-
+        </Headroom>
         
 
         {/* A <Switch> looks through its children <Route>s and
@@ -67,16 +67,6 @@ Navbar.propTypes = {
 };
 
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
 
 
 export default Navbar;
