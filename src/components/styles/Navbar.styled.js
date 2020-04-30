@@ -5,8 +5,9 @@ const StyledNavbar = styled.nav`
     justify-content: space-around;  
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: #756C80;
     font-family: 'Poppins', sans-serif;
+    // background-color: transparent;
 
     .logo{
         color:rgb(226, 226, 226);

@@ -10,6 +10,7 @@ import About from './About';
 import Burger from './Burger';
 import StyledNavbar from './styles/Navbar.styled';
 import  { bool, func } from 'prop-types';
+import classnames from "classname"
 
 
 const Navbar = ({open, setOpen}) => {
@@ -64,5 +65,18 @@ Navbar.propTypes = {
   open:  bool.isRequired,
   setOpen: func.isRequired,
 };
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 
 export default Navbar;
