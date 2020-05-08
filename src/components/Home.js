@@ -11,7 +11,7 @@ export default class Home extends Component {
             <StyledHome>
                 <Clock />
                     <Textbox>
-                    <img style={{borderRadius: '50%'}} src="https://picsum.photos/300" />
+                        <img style={{borderRadius: '50%'}} src="https://picsum.photos/300" />
                     </Textbox>
             </StyledHome>
         )
