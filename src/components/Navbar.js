@@ -20,7 +20,7 @@ const Navbar = ({open, setOpen}) => {
         <Headroom>
         <StyledNavbar>
           <div className="logo">
-            <h4>The nav</h4>
+            <h4>Kenepa</h4>
           </div>
           <ul className="nav-links">
             <li>

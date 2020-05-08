@@ -35,6 +35,12 @@ const StyledNavbar = styled.nav`
         font-size: 14px;
         border: solid 1px;
         padding: 10px;
+        margin: 10px;
+        
+        &:hover {
+            transition: 800ms ease;
+            border-color: red;s
+        }
     }
     
     .burger{
