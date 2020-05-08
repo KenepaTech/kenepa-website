@@ -33,6 +33,8 @@ const StyledNavbar = styled.nav`
         letter-spacing: 3px;
         font-weight: bold;
         font-size: 14px;
+        border: solid 1px;
+        padding: 10px;
     }
     
     .burger{
