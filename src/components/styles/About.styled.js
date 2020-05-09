@@ -43,8 +43,8 @@ export const Col = styled.div`
     display:none;
     `)};
     //to be removed
-    // border-color:red;
-    // border-style: solid;
+    //border-color:red;
+    //border-style: solid;
     //padding:5px;
     //to be removed
 
