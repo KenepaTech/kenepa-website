@@ -5,9 +5,9 @@ const StyledNavbar = styled.nav`
     justify-content: space-around;  
     align-items: center;
     min-height: 8vh;
-    background-color: #756C80;
+    // background-color: #756C80;
     font-family: 'Poppins', sans-serif;
-    // background-color: transparent;
+    background-color: transparent;
 
     .logo{
         color:rgb(226, 226, 226);
@@ -33,6 +33,14 @@ const StyledNavbar = styled.nav`
         letter-spacing: 3px;
         font-weight: bold;
         font-size: 14px;
+        border: solid 1px;
+        padding: 10px;
+        margin: 10px;
+        
+        &:hover {
+            transition: 800ms ease;
+            border-color: red;s
+        }
     }
     
     .burger{

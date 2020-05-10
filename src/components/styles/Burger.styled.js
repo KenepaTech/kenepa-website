@@ -43,8 +43,15 @@ const StyledBurger = styled.button`
     }
     }
 
+<<<<<<< HEAD
     @media (max-width: ${({ theme }) =>theme.tablet}) {
         display:flex;
+=======
+    @media (max-width: ${({ theme }) => theme.tablet}) {
+        display:block;
+        padding-top: 2rem;
+        padding-right: 2rem;
+>>>>>>> dev
         }
 
      

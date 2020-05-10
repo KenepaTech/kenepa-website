@@ -10,7 +10,11 @@ import About from './About';
 import Burger from './Burger';
 import StyledNavbar from './styles/Navbar.styled';
 import  { bool, func } from 'prop-types';
-import Headroom from "react-headroom"
+import Headroom from 'react-headroom';
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
 
 const Navbar = ({open, setOpen}) => {
   return (
@@ -19,7 +23,7 @@ const Navbar = ({open, setOpen}) => {
         <Headroom>
         <StyledNavbar>
           <div className="logo">
-            <h4>The nav</h4>
+            <h4>Kenepa</h4>
           </div>
           <ul className="nav-links">
             <li>
@@ -43,10 +47,10 @@ const Navbar = ({open, setOpen}) => {
         </div>
         </StyledNavbar>
         </Headroom>
-        
 
         {/* A <Switch> looks through its children <Route>s and
                           renders the first one that matches the current URL. */}
+                          
         <Switch>
           <Route path="/about">
             <About />
@@ -65,8 +69,6 @@ Navbar.propTypes = {
   open:  bool.isRequired,
   setOpen: func.isRequired,
 };
-
-
 
 
 export default Navbar;
