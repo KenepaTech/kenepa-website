@@ -11,7 +11,7 @@ export default class Home extends Component {
             <StyledHome>
                 <Clock />
                     <Textbox>
-                        <img alt="placeholder" style={{borderRadius: '50%'}} src="https://picsum.photos/300" />
+                        <img alt="placeholder" style={{borderRadius: '50%'}} className=" mx-auto flex justify-center items-center" src="https://picsum.photos/300" />
                     </Textbox>
             </StyledHome>
         )
