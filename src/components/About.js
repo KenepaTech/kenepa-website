@@ -55,8 +55,8 @@ export default class About extends Component {
          
         </Row> */}
 
-        <div class="flex flex-wrap -mx-3  sm:-mx-3 md:-mx-1 lg:-mx-2 xl:-mx-2">
-          <div class="my-3 px-3 w-1/2  bg-gray-800 sm:my-3 sm:px-3 sm:w-full md:my-1 md:px-1 md:w-1/3 ">
+        <div class="flex flex-wrap -mx-px overflow-hidden sm:-mx-1 md:-mx-3 lg:-mx-1">
+          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-3/5 xl:w-3/5">
             <p>
               Reprehenderit id aliqua ex esse esse dolore laboris nulla Lorem
               nisi laboris ea. Do dolore nisi ipsum tempor sit sunt dolor id.
@@ -78,13 +78,20 @@ export default class About extends Component {
             </p>
           </div>
 
-          <div class="my-3 px-3 w-1/3  bg-gray-600 sm:my-3 sm:px-3 sm:w-full md:my-1 md:px-1 md:w-1/3 ">
+          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-2/5 xl:w-2/5">
             <p>I Am Groot!</p>
+            <img alt="placeholder" style={{borderRadius: '50%'}} className="block justify-center h-auto w-full" src={logo} />
+          </div>
+          
+          <div class="my-2 px-2 w-1/3 overflow-hidden sm:my-2 sm:px-2 sm:w-full md:my-1 md:px-1 md:w-full lg:my-px lg:px-px lg:w-1/3 xl:my-1 xl:px-1 xl:w-1/2">
+            <p>I Am Not Groot!</p>
             <img alt="placeholder" style={{borderRadius: '50%'}} className="block justify-center h-auto w-full" src="https://picsum.photos/1820" />
           </div>
+          
 
-          <div class="my-3 px-3 w-1/3   bg-gray-700 sm:my-3 sm:px-3 sm:w-full md:my-1 md:px-1 md:w-1/3  ">
+          <div class="my-2 px-2 w-1/3 overflow-hidden sm:my-2 sm:px-2 sm:w-full md:my-1 md:px-1 md:w-full lg:my-px lg:px-px lg:w-1/3 xl:my-1 xl:px-1 xl:w-1/2">
             <p>
+            
               Reprehenderit id aliqua ex esse esse dolore laboris nulla Lorem
               nisi laboris ea. Do dolore nisi ipsum tempor sit sunt dolor id.
               Consequat commodo ad ipsum dolore reprehenderit aliqua nostrud
