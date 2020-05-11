@@ -5,55 +5,33 @@ import "../tailwind.generated.css";
 export default class About extends Component {
   render() {
     return (
+
       <StyledAbout color="transparent">
         <h1> About Us</h1>
-        <Grid>
-          <Row>
-            <Col size={7} className="intro">
+        <Grid > 
+          <Row className="flex mb-4" >
+            <Col className="w-1/2 bg-gray-400 h-12 sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/2">
               <p>
-                {" "}
-                Fugiat cupidatat aliquip ut veniam. Ullamco veniam reprehenderit
-                consequat fugiat et labore dolore irure ea commodo esse. Dolore
-                fugiat id ad in amet deserunt. Reprehenderit nisi sit ullamco
-                enim occaecat et velit dolor amet est nulla ex aliqua. Et sit
-                aute pariatur nisi occaecat esse exercitation in officia et quis
-                elit nulla. Labore ullamco culpa ut et dolor aute ex consequat.
-                Irure nostrud qui laborum incididunt officia sunt proident qui
-                minim id sint anim cupidatat voluptate. Excepteur velit minim
-                nulla labore Lorem quis quis aliqua laboris nulla anim dolore.
-                Elit elit voluptate non adipisicing excepteur ea aliqua duis.
-                Velit minim deserunt labore est in esse consectetur magna sit
-                sunt qui. Sit nostrud officia incididunt consequat adipisicing.
-                Occaecat adipisicing ipsum deserunt quis. Nulla exercitation
-                deserunt veniam labore. Sunt incididunt est excepteur anim
-                eiusmod aliquip esse nisi. Fugiat aute reprehenderit adipisicing
-                nostrud in magna quis ex ut. Laboris Lorem et id mollit
-                consectetur reprehenderit Lorem. Sunt anim eu dolor minim nulla
-                elit. Deserunt adipisicing non non ipsum eiusmod nisi.{" "}
+                Ad velit mollit id mollit nostrud elit fugiat amet incididunt voluptate pariatur occaecat fugiat. Officia sit commodo dolore nisi elit qui qui duis culpa incididunt. Tempor sint et ex deserunt irure. Aliqua eu dolore irure non quis nisi ea id. Dolore pariatur incididunt irure commodo duis. Id officia reprehenderit reprehenderit qui magna ut ullamco id reprehenderit et eiusmod do.
+
+Veniam irure qui excepteur cupidatat ut Lorem irure esse velit. Elit aliqua in proident laboris ex cupidatat deserunt nisi eiusmod aliqua. Ut tempor mollit labore velit culpa eu esse. Sunt culpa ad ullamco consectetur nisi Lorem id. Esse eiusmod velit non laboris esse veniam labore irure pariatur tempor laboris et. Fugiat reprehenderit dolore ullamco sint exercitation.
+
+Fugiat occaecat do do ut adipisicing reprehenderit Lorem do labore. Nulla ea occaecat qui laboris duis non. Consectetur amet consectetur deserunt do aliqua cillum est elit id id labore. Et aliquip commodo adipisicing est irure officia ex aliqua officia sint ea enim veniam.
+
+Laboris est ut labore proident Lorem non irure sit Lorem qui sunt adipisicing nulla. Ad in duis do laborum et occaecat. Ullamco ipsum eiusmod officia occaecat ullamco anim amet laboris minim ad ut do laborum occaecat.
               </p>
-              {/* Hello */}
             </Col>
-            <Col size={5}>
-              {/* <img alt="placeholder"  src="https://picsum.photos/500/500" /> */}
-              <img alt="placeholder" src={logo} />
-            </Col>
+            <Col className=" w-1/2 bg-gray-500 h-12 sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/2">
+            <p> 
+                banda rechts
+       <img alt="placeholder" src={logo} />
+
+            </p>
+            </Col >
           </Row>
           <Row>
-            <Col size={5} collapse="xs">
-              {/* meh */}
-            </Col>
-            <Col size={8}>
-              <div className="max-w-md mx-auto flex p-6 bg-gray-100 mt-10 rounded-lg shadow-xl">
-                <div className="ml-6 pt-1">
-                  <h1 className="text-2xl text-blue-700 leading-tight">
-                    Tailwind and Create React App
-                  </h1>
-                  <p className="text-base text-gray-700 leading-normal">
-                    Building apps together
-                  </p>
-                </div>
-              </div>
-            </Col>
+            <Col></Col>
+            <Col></Col>
           </Row>
         </Grid>
       </StyledAbout>

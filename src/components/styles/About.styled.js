@@ -36,26 +36,15 @@ const media = {
 export default StyledAbout;
 
 export const Grid = styled.div`
-    //border-color:green;
-    //border-style: solid;
+    
 `;
 
 export const Row = styled.div`
-    display:flex;
+  
 `;
 
-
-
 export const Col = styled.div`
-    flex: ${(props) => props.size};
-    ${(props) => props.collapse && media[props.collapse](`
-    display:none;
-    `)};
-    //to be removed
-    //border-color:red;
-     //border-style: solid;
-    padding:5px;
-    //to be removed
+   
 
 
 `;
