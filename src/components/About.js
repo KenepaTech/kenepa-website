@@ -56,42 +56,39 @@ export default class About extends Component {
         </Row> */}
 
         <div class="flex flex-wrap -mx-px overflow-hidden sm:-mx-1 md:-mx-3 lg:-mx-1">
-          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-3/5 xl:w-3/5">
+          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-2/4 xl:w-3/5">
             <p>
-              Reprehenderit id aliqua ex esse esse dolore laboris nulla Lorem
-              nisi laboris ea. Do dolore nisi ipsum tempor sit sunt dolor id.
-              Consequat commodo ad ipsum dolore reprehenderit aliqua nostrud
-              minim excepteur laboris consectetur. Excepteur qui labore sunt
-              labore et laborum. Do nisi ad reprehenderit tempor fugiat.
-              Occaecat cillum dolore do pariatur aliqua. Cillum esse commodo
-              ullamco incididunt magna officia sit laborum tempor Lorem dolor
-              incididunt in. Consectetur eu deserunt voluptate proident qui anim
-              ad cillum aliqua velit ea est pariatur. Nisi non id sunt Lorem
-              amet velit anim laborum occaecat officia enim id voluptate
-              laboris. Sint non ipsum exercitation aliqua proident duis officia
-              consequat ut exercitation labore tempor dolore ipsum. Aliqua ipsum
-              laborum reprehenderit eu cupidatat velit. Et veniam culpa cillum
-              reprehenderit sunt labore anim quis. In ad magna aliquip in
-              reprehenderit anim cupidatat ex eu occaecat sunt. Mollit ut non id
-              Lorem esse dolore exercitation velit Lorem mollit irure magna est
-              ut. Ad magna laborum reprehenderit proident. 
+              We are a dedicated group of young professionals and students from
+              the ABC-islands that excel at using a multi-disciplinary approach
+              with the latest stable technologies to provide customers with
+              innovative solutions for their businesses and/or projects. Enjoy
+              your stay, and feel free to contact us with any questions about
+              our services.
             </p>
           </div>
 
-          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-2/5 xl:w-2/5">
+          <div class="my-px px-px w-1/3 overflow-hidden sm:my-1 sm:px-1 md:my-3 md:px-3 md:w-full lg:my-1 lg:px-1 lg:w-2/4 xl:w-2/5">
             <p>I Am Groot!</p>
-            <img alt="placeholder" style={{borderRadius: '50%'}} className="block justify-center h-auto w-full" src={logo} />
+            <img
+              alt="placeholder"
+              style={{ borderRadius: "50%" }}
+              className="block justify-center h-auto w-full"
+              src={logo}
+            />
           </div>
-          
+
           <div class="my-2 px-2 w-1/3 overflow-hidden sm:my-2 sm:px-2 sm:w-full md:my-1 md:px-1 md:w-full lg:my-px lg:px-px lg:w-1/3 xl:my-1 xl:px-1 xl:w-1/2">
             <p>I Am Not Groot!</p>
-            <img alt="placeholder" style={{borderRadius: '50%'}} className="block justify-center h-auto w-full" src="https://picsum.photos/1820" />
+            <img
+              alt="placeholder"
+              style={{ borderRadius: "50%" }}
+              className="block justify-center h-auto w-full"
+              src="https://picsum.photos/1820"
+            />
           </div>
-          
 
           <div class="my-2 px-2 w-1/3 overflow-hidden sm:my-2 sm:px-2 sm:w-full md:my-1 md:px-1 md:w-full lg:my-px lg:px-px lg:w-1/3 xl:my-1 xl:px-1 xl:w-1/2">
             <p>
-            
               Reprehenderit id aliqua ex esse esse dolore laboris nulla Lorem
               nisi laboris ea. Do dolore nisi ipsum tempor sit sunt dolor id.
               Consequat commodo ad ipsum dolore reprehenderit aliqua nostrud
@@ -108,7 +105,7 @@ export default class About extends Component {
               reprehenderit sunt labore anim quis. In ad magna aliquip in
               reprehenderit anim cupidatat ex eu occaecat sunt. Mollit ut non id
               Lorem esse dolore exercitation velit Lorem mollit irure magna est
-              ut. 
+              ut.
             </p>
           </div>
         </div>
