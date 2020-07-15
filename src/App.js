@@ -48,7 +48,7 @@ function App() {
               showCloseIcon={true}
               >
 
-                <Menu />
+                <Menu  open/>
 
             </Modal>
 
