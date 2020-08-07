@@ -45,10 +45,10 @@ function App() {
               styles={modalStyles}
               animationDuration={1000}
               focusTrapped={true}
-              showCloseIcon={true}
+              showCloseIcon={false}
               >
 
-                <Menu  open/>
+                <Menu />
 
             </Modal>
 
