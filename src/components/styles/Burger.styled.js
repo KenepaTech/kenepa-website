@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledBurger = styled.button`
     position: absolute;
-    top: 3%;
+    top: 5%;
     right: 2rem;
     display:none;
     flex-direction: column;
@@ -14,7 +14,7 @@ const StyledBurger = styled.button`
     cursor: pointer;
     padding: 0;
     z-index: 10;
-
+    margin-top:20px;
     &:focus {
     outline: none;
     }
@@ -22,7 +22,7 @@ const StyledBurger = styled.button`
     div {
     width: 2rem;
     height: 0.25rem;
-    margin: 0.25rem;
+    // margin: 0.25rem;
     background: ${({ theme, open }) => open ? theme.primaryDark : theme.primaryLight};
     border-radius: 10px;
     transition: all 0.3s linear;
@@ -43,16 +43,14 @@ const StyledBurger = styled.button`
     }
     }
 
-    @media (max-width: ${({ theme }) => theme.tablet}) {
-        display:block;
-        padding-top: 2rem;
-        padding-right: 2rem;
+    @media (max-width: ${({ theme }) =>theme.tablet}) {
+        display:flex;
         }
 
      
 
   
-`;
+ `;
 
 
 // // rezising burger
@@ -61,5 +59,7 @@ const StyledBurger = styled.button`
 //         width: 50%;
 //     }
 //  }
+
+
 
 export default StyledBurger;

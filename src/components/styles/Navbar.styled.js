@@ -53,12 +53,20 @@ const StyledNavbar = styled.nav`
         margin: 3px;
     }
 
-    @media (max-width: ${({ theme }) => theme.tablet}) {
-            .nav-links li {
-                display: none;
-            }
-    
+
+    @media (max-width: ${({ theme }) =>theme.test}) {
+       .nav-links{
+                
+            display:none;
+}
         }
+
+    @media (max-width: ${({ theme }) =>theme.mobile}) {
+       .nav-links{
+            display:none;
+}
+        }        
+
 `
 
 export default StyledNavbar;
