@@ -4,7 +4,6 @@ const theme = {
     primaryHover: '#343078',
     mobile: '576px',
     tablet: '768px',
-    test: '1000px'
   }
 
 export default theme;

@@ -3,8 +3,6 @@ import styled from 'styled-components';
 
 const StyledClock = styled.section`
 
-
-    margin-top:50px;
     text-align: center;
     color: white;
 
@@ -20,7 +18,6 @@ const StyledClock = styled.section`
         // -webkit-text-fill-color: transparent;
         color: white;
         opacity: 0.6;
-        margin-top:40px;
     }
 
 `;
