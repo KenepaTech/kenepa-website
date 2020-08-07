@@ -45,6 +45,8 @@ const StyledBurger = styled.button`
 
     @media (max-width: ${({ theme }) => theme.tablet}) {
         display:block;
+        padding-top: 2rem;
+        padding-right: 2rem;
         }
 
      

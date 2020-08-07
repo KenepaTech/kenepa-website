@@ -8,32 +8,33 @@ import {
 import Home from './Home';
 import About from './About';
 import Burger from './Burger';
-import Menu from './Menu';
 import StyledNavbar from './styles/Navbar.styled';
 import  { bool, func } from 'prop-types';
+import Headroom from 'react-headroom';
 
 
 const Navbar = ({open, setOpen}) => {
   return (
     <Router>
       <div>
+        <Headroom>
         <StyledNavbar>
           <div className="logo">
-            <h4>The nav</h4>
+            <h4>Kenepa</h4>
           </div>
           <ul className="nav-links">
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Welcome</a>
+              <a href="/about">About</a>
             </li>
             <li>
               
-            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
           <div>
@@ -42,8 +43,7 @@ const Navbar = ({open, setOpen}) => {
           
         </div>
         </StyledNavbar>
-
-        
+        </Headroom>
 
         {/* A <Switch> looks through its children <Route>s and
                           renders the first one that matches the current URL. */}
@@ -65,5 +65,6 @@ Navbar.propTypes = {
   open:  bool.isRequired,
   setOpen: func.isRequired,
 };
+
 
 export default Navbar;
