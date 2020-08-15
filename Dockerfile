@@ -13,7 +13,7 @@ RUN npm install
 #
 COPY . ./app/
 #
-## start app
+## start app in production
 FROM debug as prod
 
 CMD ["npm", "start"]
